@@ -1,1 +1,210 @@
-/*# sourceMappingURL=styles.css.map */
+#white-div4-p1 {
+  margin-top: 25px;
+  width: 1440px;
+}
+#white-div4-p1 h5 {
+  margin-top: 80px;
+  color: var(--Text_Black, #000);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+#white-div4-p1 h2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+#white-div4-p1 p {
+  margin-left: 435px;
+  width: 570px;
+  height: 83px;
+  flex-shrink: 0;
+  color: var(--Text_Black, #000);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+#white-div4-p1 div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#white-div4-p1 div div:nth-child(1) > img {
+  width: 172px;
+  height: 35px;
+}
+#white-div4-p1 div div:nth-child(2) > img {
+  width: 164px;
+  height: 54px;
+}
+#white-div4-p1 div div:nth-child(3) > img {
+  width: 368px;
+  height: 53px;
+}
+#white-div4-p1 div div:nth-child(4) > img {
+  width: 173px;
+  height: 53px;
+}
+#white-div4-p1 div div:nth-child(5) > img {
+  width: 168px;
+  height: 53px;
+}
+#white-div4-p1 button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #434CCC;
+  background-color: white;
+  border: 1px solid #434CCC;
+  margin-bottom: 96px;
+  margin-left: 635px;
+  margin-top: 72px;
+}
+
+#white-div4-p2 {
+  width: 1440px;
+  height: 600px;
+}
+#white-div4-p2 div:nth-child(1) h5 {
+  margin-left: 135px;
+  margin-top: 62px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+#white-div4-p2 div:nth-child(1) div:nth-of-type(1) {
+  margin-left: 135px;
+  width: 1170px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#white-div4-p2 div:nth-child(1) div:nth-of-type(1) h2 {
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+#white-div4-p2 div:nth-child(1) div:nth-of-type(1) button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #434CCC;
+  color: #434CCC;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#white-div4-p2 > .cards {
+  height: 480px;
+  margin-top: 10px;
+  margin-left: 135px;
+  display: flex;
+  gap: 30px;
+}
+#white-div4-p2 > .cards div {
+  width: 520px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  padding: 26px;
+}
+#white-div4-p2 > .cards div img {
+  width: 519px;
+  height: 346px;
+}
+#white-div4-p2 > .cards div p:nth-of-type(1) {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#white-div4-p2 > .cards div h4 {
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  margin: 0;
+}
+#white-div4-p2 > .cards div p:nth-of-type(2) {
+  color: var(--Text_Black, #000);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+#white-div4-p3 {
+  width: 1440px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 126px;
+  padding-bottom: 126px;
+}
+#white-div4-p3 div:nth-of-type(1) h5 {
+  color: var(--Text_Black, #000);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+#white-div4-p3 div:nth-of-type(1) h4 {
+  width: 275px;
+  height: 96px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+#white-div4-p3 div:nth-of-type(1) button {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #434CCC;
+  margin-right: 20px;
+}
+#white-div4-p3 div:nth-of-type(1) span {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#white-div4-p3 div > img {
+  border-radius: 5px;
+}/*# sourceMappingURL=styles.css.map */
