@@ -214,3 +214,88 @@
       border-radius: 5px;
     }
   }
+
+// Define a variable for the mobile breakpoint
+$breakpoint-mobile: 748px;
+
+// Use a mixin to simplify the media query syntax
+@mixin media($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+// Wrap the styles that you want to change inside the mixin
+@include media($breakpoint-mobile) {
+  #white-div4-p1 {
+    margin-top: 25px;
+    width: 375px;
+
+    p {
+      margin-left: 10px;
+      width: 346px;
+      height: 104px;
+    }
+
+    div {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    button {
+      margin-left: 100px;
+    }
+  }
+
+  #white-div4-p2 {
+    width: 375px;
+    height: 1300px;
+
+    div:nth-child(1) {
+      h5 {
+        margin-left: 10px;
+      }
+
+      div:nth-of-type(1) {
+        margin-left: 10px;
+
+        h2 {
+          font-size: 40px;
+          line-height: 48px; /* 114.286% */
+        }
+
+        button {
+          position: absolute;
+          margin-left: 100px;
+          margin-top: 2600px;
+        }
+      }
+    }
+  }
+
+  #white-div4-p2 > .cards {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      width: 335px;
+      height: 512px;
+
+      img {
+        width: 330px;
+      }
+    }
+  }
+
+  #white-div4-p3 {
+    border-top: 1px solid black;
+    width: 375px;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+}
+
+

@@ -397,3 +397,175 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 }
+
+
+// Define a variable for the mobile breakpoint
+$breakpoint-mobile: 748px;
+
+// Use a mixin to simplify the media query syntax
+@mixin media($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+// Wrap the styles that you want to change inside the mixin
+@include media($breakpoint-mobile) {
+
+  .rectangle {
+    width: 375px;
+    height: 944px;
+  }
+
+  .rectangle > h5 {
+    padding-left: 10px;
+    padding-top: 50px;
+  }
+
+  .rectangle > h1 {
+    width: 299px;
+    height: 96px;
+    padding-left: 10px;
+    font-size: 40px;
+    line-height: 48px; /* 114.286% */
+  }
+
+  .rectangle > p {
+    width: 346px;
+    height: 131px;
+    position: relative;
+    padding-left: 10px;
+  }
+
+  .email-rectangle {
+    margin-left: 10px;
+    padding-right: 280px;
+    text-align: left;
+  }
+
+  .subscribe-rectangle {
+    position: absolute;
+    top: 460px;
+    left: -5px;
+    padding: 0px;
+  }
+
+  .sus {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+  }
+
+  .yellow-container {
+    margin-top: -50px;
+  }
+
+  .image1 > img {
+    width: 600px;
+    position: absolute;
+    left: -700px;
+    top: 500px;
+  }
+
+  .blue-container {
+    width: 375px;
+    height: 1080px;
+  }
+
+  .blue-container > div {
+    width: 720px;
+    height: 100%;
+    padding-left: 90px;
+    padding-top: 70px;
+  }
+
+  .map-container {
+    width: 355px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 10px;
+    flex-direction: column;
+  }
+
+  .second-div {
+    margin-top: 500px;
+    position: absolute;
+    left: -80px;
+  }
+
+  .email-contain {
+    padding-right: 300px;
+    width: 375px;
+  }
+
+  .message {
+    padding-right: 280px;
+    width: 355px;
+  }
+
+  .white-container {
+    width: 375px;
+    height: 1000px;
+  }
+
+  .bottom-container {
+    margin-left: 10px;
+    flex-direction: column;
+  }
+
+  #logo {
+    margin-top: 650px;
+  }
+
+  #para-logo {
+    width: 346px;
+    height: 79px;
+  }
+
+  #bottom-div2 {
+    margin-left: -280px;
+  }
+
+  #bottom-div3 {
+    margin-top: -320px;
+    margin-left: 50px;
+  }
+
+  .istinner {
+    margin-top: -80px;
+  }
+
+  .img3 {
+    width: 71px;
+    height: 48px;
+  }
+
+  .jndinner {
+    margin-top: -80px;
+  }
+
+  .bottom-rect {
+    margin-top: 550px;
+  }
+
+  .bot-last {
+    flex-direction: column;
+  }
+
+  #head > span {
+    position: absolute;
+    left: 10px;
+  }
+
+  #part {
+    width: 246px;
+  }
+
+  #part > span {
+    position: absolute;
+    left: 10px;
+  }
+}
+
+
+

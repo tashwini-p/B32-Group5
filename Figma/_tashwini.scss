@@ -624,4 +624,367 @@ body{
     }
 }
 
+// Define a variable for the mobile breakpoint
+$breakpoint-mobile: 748px;
+
+// Use a mixin to simplify the media query syntax
+@mixin media($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+// Wrap the styles that you want to change inside the mixin
+@include media($breakpoint-mobile) {
+
+  #blue-div-1 {
+    width: 375px;
+    height: 768px;
+
+    > nav {
+      // Hide the navigation links and show the hamburger menu
+      > div {
+        display: none;
+      }
+
+      // Add a hamburger menu icon on the right
+      &:after {
+        content: "\2630";
+        font-size: 24px;
+        text-align: right;
+        margin-left: 250px;
+      }
+    }
+
+    > nav > h3 {
+      font-size: 24px;
+      margin-left: -120px;
+    }
+
+    > div {
+      padding-top: 5px;
+      padding-left: 20px;
+
+
+      > div:nth-child(1) h1 {
+        width: 258px;
+        height: 192px;
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+      }
+
+      > div:nth-child(1) p:nth-of-type(2) {
+        width: 346px;
+        height: 72px;
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+      }
+
+      > div:nth-child(2) > img {
+        width: 350px;
+        margin-left: -450px;
+        margin-top: 450px;
+      }
+    }
+  }
+}
+
+
+@include media($breakpoint-mobile) {
+  #yellow-div-2 {
+    width: 375px;
+    height: 1632px;
+
+    > div {
+      > h2 {
+        font-size: 40px;
+        margin-top: -480px;
+        margin-left: -800px;
+      }
+
+      > p {
+        width: 346px;
+        height: 101px;
+        margin-left: -800px;
+      }
+
+      .cards {
+        flex-direction: column;
+        margin-left: -800px;
+
+        > div {
+          width: 346px;
+          height: 416px;
+        }
+      }
+    }
+  }
+}
+@include media($breakpoint-mobile) {
+  #white-div1-p1 {
+    width: 375px;
+
+    > h4 {
+      margin-left: -10px;
+    }
+    > h2 {
+      font-size: 40px;
+      margin-top: -10px;
+    }
+    > p {
+      width: 346px;
+      height: 135px;
+      margin-top: -10px;
+    }
+  }
+
+  #white-div1-p2 {
+    
+    > div:nth-child(1) {
+      > img {
+        width: 594px;
+        height: 396px;
+        margin-left: -250px;
+        margin-top: -10px;
+      }
+    }
+    > div:nth-child(2) {
+      > h3 {
+        font-size: 24px;
+        margin-left: -800px;
+        margin-top: 350px;
+      }
+      > p:nth-of-type(1) {
+        width: 346px;
+        height: 94px;
+        margin-left: -800px;
+      }
+      > p:nth-of-type(2) {
+        margin-left: -800px;
+      }
+    }
+  }
+
+  #white-div1-p3 {
+    > div:nth-child(2) > div > img {
+      width: 500px;
+      height: 345px;
+      margin-left: -480px;
+      margin-top: -20px;
+    }
+    > div:nth-child(1) {
+      > h3 {
+        font-size: xx-large;
+        margin-left: 20px;
+        margin-top: 350px;
+      }
+      > p:nth-of-type(1) {
+        margin-left: 20px;
+        margin-top: -10px;
+        width: 346px;
+        height: 104px;
+      }
+      > p:nth-of-type(2) {
+        margin-left: 20px;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+@include media($breakpoint-mobile) {
+  #blue-div-2 {
+    width: 375px;
+
+    > h5 {
+      margin-left: -530px;
+    }
+
+    > h2 {
+      font-size: 40px;
+      margin-top: -20px;
+      line-height: 48px; /* 114.286% */
+    }
+
+    > p {
+      width: 346px;
+      height: 134px;
+      flex-shrink: 0;
+      margin-left: 20px;
+    }
+  }
+
+  #blue-div-2 > div {
+    width: 350px;
+    margin-left: -122px;
+
+    > div:nth-child(1) {
+      > p {
+        margin-left: -80px;
+        margin: -80px;
+      }
+
+      > h2 {
+        font-size: 36px;
+        margin-left: -80px;
+        line-height: 48px; /* 114.286% */
+        margin-top: 60px;
+      }
+
+      > button {
+        margin-top: -30px;
+        margin-left: 20px;
+      }
+    }
+
+    > div:nth-child(2) {
+      > img {
+        width: 350px;
+        height: 85%;
+        margin-left: -318px;
+        margin-top: 76px;
+      }
+    }
+  }
+
+  ////// whi- div 2 //////
+
+  #white-div-2 {
+    > div {
+      margin-top: 128px;
+      margin-left: 15px;
+
+      > #red-gargoyle-div {
+        width: 350px;
+
+        p {
+          margin-left: 10px;
+        }
+
+        h4 {
+          margin-top: -10px;
+          margin-left: 10px;
+        }
+
+        button {
+          margin-left: 10px;
+          margin-top: -10px;
+        }
+
+        img {
+          width: 200px;
+          margin-top: 101px;
+          margin-left: -22px;
+        }
+      }
+
+      > #blue-dog-div {
+        margin-top: 540px;
+        gap: 0px;
+        position: absolute;
+        width: 350px;
+
+        > div:nth-child(2) > img {
+          height: 80%;
+          margin-top: 102px;
+          margin-left: -20px;
+        }
+
+        p {
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+
+        h4 {
+          margin-left: 20px;
+        }
+
+        button {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  #white-div-2 {
+    > button {
+      position: absolute;
+      margin-top: 580px;
+      margin-left: 120px;
+    }
+  }
+
+  #white-div-2 {
+    #dog-walk-div {
+      > div:nth-child(1) {
+        img {
+          position: absolute;
+          margin-top: 550px;
+          margin-left: -80px;
+          width: 300px;
+        }
+      }
+
+      > div:nth-child(2) {
+        h2 {
+          width: 323px;
+          height: 96px;
+          font-size: 40px;
+          line-height: 48px; /* 114.286% */
+          position: absolute;
+          margin-top: 1100px;
+          margin-left: -690px;
+        }
+
+        p {
+          width: 346px;
+          height: 105px;
+          position: absolute;
+          margin-top: 1200px;
+          margin-left: -690px;
+        }
+
+        #dog-walk-div-cards {
+          .clock {
+            position: relative;
+            margin-top: 1280px;
+            margin-left: -690px;
+          }
+
+          .parachute {
+            position: relative;
+            margin-top: 1480px;
+            margin-left: -760px;
+            padding-bottom: 500px;
+          }
+
+          .p-1 {
+            margin-top: -10px;
+            position: absolute;
+          }
+
+          .p-2 {
+            margin-top: -10px;
+            margin-left: -760px;
+            position: absolute;
+          }
+
+          .h4-1 {
+            position: relative;
+            margin-top: 1290px;
+            margin-left: -690px;
+          }
+
+          .h4-2 {
+            position: relative;
+            margin-top: 1500px;
+            margin-left: -760px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 
