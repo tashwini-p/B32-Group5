@@ -249,7 +249,7 @@ body {
 }
 
 #white-div1-p2 {
-  width: 100%;
+  width: 1440px;
   background-color: white;
   display: flex;
 }
@@ -951,7 +951,7 @@ body {
   width: 1440px;
   height: 1600px;
   flex-shrink: 0;
-  background: #f5f6fc;
+  background: white;
   padding: 63px 135px 112px 135px;
   box-sizing: border-box;
 }
@@ -1120,8 +1120,7 @@ body {
   display: grid;
   grid-template-areas: "a1 a2 a3" "a4 a5 a6";
   row-gap: 32px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
 }
 #g1 div:nth-child(1) {
   display: flex;
@@ -1395,7 +1394,7 @@ body {
   margin-left: 452px;
 }
 .child3 h5 {
-  width: 153px;
+  width: 160px;
   height: 24px;
   color: var(--Text_White, #fff);
   /* H5 */
@@ -1776,7 +1775,7 @@ body {
   width: 1440px;
   height: 400px;
   flex-shrink: 0;
-  background: whitesmoke;
+  background: white;
 }
 
 .bottom-container {
@@ -2283,6 +2282,14 @@ hr {
   border-radius: 5px;
 }
 
+#white-div2-p1 hr {
+  opacity: 0.0974;
+  background: #000;
+  width: 1440px;
+  height: 1px;
+  flex-shrink: 0;
+}
+
 @media (max-width: 748px) {
   #white-div4-p1 {
     margin-top: 25px;
@@ -2337,4 +2344,6 @@ hr {
     flex-direction: column;
     align-items: center;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

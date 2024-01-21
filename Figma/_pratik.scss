@@ -215,6 +215,16 @@
     }
   }
 
+  #white-div2-p1{
+    hr{
+      opacity: 0.0974;
+      background: #000;
+      width: 1440px;
+      height: 1px;
+      flex-shrink: 0;
+    }
+  }
+
 // Define a variable for the mobile breakpoint
 $breakpoint-mobile: 748px;
 
