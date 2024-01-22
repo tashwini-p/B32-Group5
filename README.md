@@ -27,6 +27,8 @@ The second part of our project consists of a webpage that was given to us as a t
 The techstack that was used for this part of the project was also purely front-end based and limited to HTML and SASS(a powerful preprocessor for our cascading style sheets). 
 The purpose of using SASS as a preprocessor in order to create this design was because of the various powerful tools and options like mixins and partials that it provides us which was efficiently harnessed by us to make a pixel perfect design. 
 
+Here are some images of our figma design: 
+
 <img width="948" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/1bb21955-e866-4fa5-8771-7a986b963928">
 
 _____________________
