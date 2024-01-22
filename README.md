@@ -1,6 +1,8 @@
-# B32-Group5
+# BOOTSTRAP AND FIGMA PROJECT
 Welcome to our WEB204 Construct Week Project! 
 This project was a collaborative effort which was made over a span of 5 days with a team of 5 members and consists of 2 parts. 
+
+#Part 1: Cosmos- All Things Cosmetics
 
 The first part of our project consists of a clone of Sugar Cosmetics. We have named this part of the project as "Cosmos- All Things Cosmetics". The purpose of creating this website was to put our skills in Bootstrap to the test and create a simple, yet convincing clone of Sugar Cosmetics, while also adding in our creativity to modify it a little. The logo has been replaced with a logo that was created by us in order to avoid copyright issues. 
 The techstack that was used was purely front-end based and limited to HTML, CSS, and Bootstrap. 
@@ -19,10 +21,10 @@ _____________________
 
 _________________________________________________________________________________________________________________________________________________________________________________________________
 
+#Part 2: Figma - a pixel perfect, responsive design
+
 The second part of our project consists of a webpage that was given to us as a template that had to be cloned by using Figma. Figma is a tool that allows developers to create pixel perfect webpages. The webpage has also been made responsive to mobile screens.
 The techstack that was used for this part of the project was also purely front-end based and limited to HTML and SASS(a powerful preprocessor for our cascading style sheets). 
-
-
 
 <img width="948" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/1bb21955-e866-4fa5-8771-7a986b963928">
 
