@@ -4,9 +4,9 @@ This project was a collaborative effort which was made over a span of 5 days wit
 
 **Part 1: Cosmos- All Things Cosmetics**
 
-The first part of our project consists of a clone of Sugar Cosmetics. We have named this part of the project as "Cosmos- All Things Cosmetics". The purpose of creating this website was to put our skills in Bootstrap to the test and create a simple, yet convincing clone of Sugar Cosmetics, while also adding in our creativity to modify it a little. The logo has been replaced with a logo that was created by us in order to avoid copyright issues. 
+In the initial phase of our project, we undertook the creation of a replica of Sugar Cosmetics, and we've aptly named this segment "Cosmos- All Things Cosmetics." The primary objective of this endeavor was to showcase our proficiency in Bootstrap, presenting a refined yet compelling emulation of Sugar Cosmetics. We infused a touch of creativity by making subtle modifications to the design, and to ensure originality, we crafted a unique logo in-house to sidestep any potential copyright concerns.
 
-The **techstack** that was used was purely front-end based and limited to HTML, CSS, and Bootstrap. 
+Our chosen **tech-stack** for this phase remained exclusively front-end, employing HTML, CSS, and Bootstrap. By focusing on these technologies, we aimed to demonstrate not only our mastery in foundational web development languages but also our ability to leverage frameworks like Bootstrap to streamline the creation of a visually appealing and responsive cosmetic website.
 
 Here is a link that will take you to the website: 
 https://65ad2c9bfe2cc073be15a889--cute-cheesecake-d85760.netlify.app/
