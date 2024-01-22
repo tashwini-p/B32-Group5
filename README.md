@@ -25,7 +25,7 @@ _____________________
 
 _________________________________________________________________________________________________________________________________________________________________________________________________
 
-**Part 2: Figma - a pixel perfect, responsive design**
+**Part 2: Figma - a Pixel Perfect, Responsive Design**
 
 The second part of our project consists of a webpage that was given to us as a template that had to be cloned by using Figma. Figma is a tool that allows developers to create pixel perfect webpages. The webpage has also been made responsive to mobile screens. 
 
