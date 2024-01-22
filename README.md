@@ -9,17 +9,28 @@ Here are some images:
 
 <img width="948" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/7fe2ae8e-e37b-49c9-8166-63b4592e2e9d">
 
+_____________________
+
 <img width="950" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/c3ad5e20-85ad-42b6-995d-3f76a846bd8a">
+
+_____________________
 
 <img width="946" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/bf34c6d7-70ad-4c64-8bb5-8cdd5ed5bac2">
 
+_________________________________________________________________________________________________________________________________________________________________________________________________
 
 The second part of our project consists of a webpage that was given to us as a template that had to be cloned by using Figma. Figma is a tool that allows developers to create pixel perfect webpages. The webpage has also been made responsive to mobile screens.
 The techstack that was used for this part of the project was also purely front-end based and limited to HTML and SASS(a powerful preprocessor for our cascading style sheets). 
 
+
+
 <img width="948" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/1bb21955-e866-4fa5-8771-7a986b963928">
 
+_____________________
+
 <img width="811" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/f869e7f8-07ee-4fd9-80ca-e04cd4d4a6ba">
+
+_____________________
 
 <img width="810" alt="image" src="https://github.com/tashwini-p/B32-Group5/assets/154405564/aee5c1d0-e651-4862-b6ad-81581947091f">
 
