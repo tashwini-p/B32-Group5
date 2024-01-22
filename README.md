@@ -5,7 +5,9 @@ This project was a collaborative effort which was made over a span of 5 days wit
 **Part 1: Cosmos- All Things Cosmetics**
 
 The first part of our project consists of a clone of Sugar Cosmetics. We have named this part of the project as "Cosmos- All Things Cosmetics". The purpose of creating this website was to put our skills in Bootstrap to the test and create a simple, yet convincing clone of Sugar Cosmetics, while also adding in our creativity to modify it a little. The logo has been replaced with a logo that was created by us in order to avoid copyright issues. 
+
 The **techstack** that was used was purely front-end based and limited to HTML, CSS, and Bootstrap. 
+
 Here is a link that will take you to the website: 
 https://65ad2c9bfe2cc073be15a889--cute-cheesecake-d85760.netlify.app/
 
@@ -26,8 +28,10 @@ ________________________________________________________________________________
 **Part 2: Figma - a pixel perfect, responsive design**
 
 The second part of our project consists of a webpage that was given to us as a template that had to be cloned by using Figma. Figma is a tool that allows developers to create pixel perfect webpages. The webpage has also been made responsive to mobile screens. 
+
 The **techstack** that was used for this part of the project was also purely front-end based and limited to HTML and SASS(a powerful preprocessor for our cascading style sheets). 
 The purpose of using SASS as a preprocessor in order to create this design was because of the various powerful tools and options like mixins and partials that it provides us which was efficiently harnessed by us to make a pixel perfect design. 
+
 Here is a link that will take you to the website: 
 https://65ad2c9bfe2cc073be15a889--cute-cheesecake-d85760.netlify.app/
 
