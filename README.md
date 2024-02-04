@@ -9,7 +9,7 @@ In the initial phase of our project, we undertook the creation of a replica of S
 Our chosen **tech-stack** for this phase remained exclusively front-end, employing HTML, CSS, and Bootstrap. By focusing on these technologies, we aimed to demonstrate not only our mastery in foundational web development languages but also our ability to leverage frameworks like Bootstrap to streamline the creation of a visually appealing and responsive cosmetic website.
 
 Here is a link that will take you to the website: 
-https://65ad2c9bfe2cc073be15a889--cute-cheesecake-d85760.netlify.app/
+https://65ad2c5f865d586a14fce5d8--sprightly-praline-778e2d.netlify.app/
 
 Here are some images:
 
